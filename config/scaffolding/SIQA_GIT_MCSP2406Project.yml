@@ -7,9 +7,3 @@ packages:
   gitUrl: https://github.com/rimabarman
   gitUsername: rimabarman
   gitBranch: main
-- name: TPP_SIQA_FeatureTests
-  version: "1.0"
-  gitServerName: SIQA_Rima
-  gitUrl: https://github.com/rimabarman
-  gitUsername: rimabarman
-  gitBranch: main
