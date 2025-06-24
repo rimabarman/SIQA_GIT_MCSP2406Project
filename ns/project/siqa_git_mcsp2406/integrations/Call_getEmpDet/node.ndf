@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Rima.Barman@ibm.com</value>
-    <value name="lastModifiedDate">1750772813945</value>
+    <value name="lastModifiedDate">1750772966411</value>
     <value name="displayName">Call_getEmpDet</value>
     <value name="description">Call_getEmpDet</value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -67,11 +67,12 @@
         <null name="outputMapSet"/>
         <null name="mapSet"/>
         <Boolean name="serviceReferenceResolved">true</Boolean>
-        <value name="nodePathForDebug">0</value>
         <number name="ui_step_index" type="Long">1</number>
         <value name="nodePathNew">0</value>
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">1</number>
+        <value name="nodePathForDebug">0</value>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
       </record>
     </record>
   </record>
