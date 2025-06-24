@@ -24,3 +24,11 @@ services:
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
+- serviceName: tpp_siqa_featuretests.com.wm.featureTests.adapters:getEmpDetails
+  packages:
+  - name: TPP_SIQA_FeatureTests
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
