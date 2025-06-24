@@ -45,15 +45,27 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">Rima.Barman@ibm.com</value>
-    <value name="createdDate">1750772237019</value>
-    <value name="lastModifiedDate">1750772237019</value>
+    <value name="lastModifiedBy">Rima.Barman@ibm.com</value>
+    <value name="lastModifiedDate">1750772255391</value>
     <value name="displayName">Call_getEmpDet</value>
     <value name="description">Call_getEmpDet</value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
-        <value name="itemType">ALL</value>
-        <value name="name">NEW</value>
+        <null name="name"/>
+        <value name="itemType">PACKAGES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">TPP_SIQA_FeatureTests</value>
+          <value name="groupName">TPP_SIQA_FeatureTests;1.0</value>
+          <null name="services"/>
+        </record>
+        <Boolean name="isProjectPackage">false</Boolean>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="description">tpp_siqa_featuretests.com.wm.featureTests.adapters:getEmpDetails</value>
+          <value name="serviceName">tpp_siqa_featuretests.com.wm.featureTests.adapters:getEmpDetails</value>
+          <value name="displayName">getEmpDetails</value>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
       </record>
     </record>
   </record>

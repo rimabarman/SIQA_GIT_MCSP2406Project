@@ -5,7 +5,7 @@
 
   <!-- nodes -->
 
-<SEQUENCE NAME="NEW" EXIT-ON="FAILURE">
+<INVOKE NAME="TPP_SIQA_FeatureTests" SERVICE="tpp_siqa_featuretests.com.wm.featureTests.adapters:getEmpDetails">
   <COMMENT></COMMENT>
-</SEQUENCE>
+</INVOKE>
 </FLOW>
