@@ -7,12 +7,6 @@ packages:
   gitUrl: https://github.com/rimabarman
   gitUsername: rimabarman
   gitBranch: main
-- name: TPP_SIQA_FeatureTests
-  version: "1.0"
-  gitServerName: SIQA_Rima
-  gitUrl: https://github.com/rimabarman
-  gitUsername: rimabarman
-  gitBranch: main
 services:
 - serviceName: project.siqa_git_mcsp2406.integrations:Call_getEmpDetails
   packages:
